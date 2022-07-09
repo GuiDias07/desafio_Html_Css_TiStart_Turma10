@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+header{
+    background-color:black ;
+}
+#content-header{
+   
+    width: 95%;
+    height: 100%;
+    display: flex;
+    color: #fafafa;
+    font-family: helvetica;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+#logo{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+nav,a{
+    width: 100%;
+    color: #fafafa;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+   
+}
+.home{
+    margin-left: 80%;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #F9A825;
+    padding: 10px;
+   
+}
+.home:hover{
+    background-color: red;
+    cursor: pointer;
+    transition: 2s;
+}
+main{
+    width: 100%;
+    height: auto;
+    
+}
+#box-main{
+    border: 1px solid black;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 27.5vh;
+    margin-bottom: 27vh;
+}
+p{
+    width: 90%;
+    background-color: #fafafa;
+    font-family: Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    border-right: 1px dashed black;
+    
+    
+
+}
+
+.txt{
+    
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: black;
+    
+}
+
+#tiacademy{
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: helvetica;
+    width: 30%;
+    height: auto;
+    padding: 25px;
+    margin-left: 45%;
+    
+    
+
+}
